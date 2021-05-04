@@ -29,6 +29,7 @@ class AddCharity extends React.Component {
           elementConfig: {
             type: 'email',
             placeholder: 'Enter Email',
+            disabled: true,
           },
           value: this.props.email,
           validation: {
